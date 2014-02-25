@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Carousel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="carousel-wrapper">
+            <ul>
+                <li>
+                    <div class="content">
+                        <div class="rick-and-morty-1"></div>
+                    </div>                    
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="rick-and-morty-2"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="content">
+                        <div class="rick-and-morty-3"></div>                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <script src="js/jquery-2.0.js"></script>
+        <script src="js/carousel.js"></script>
+        
+        <script>
+            new Carousel(450, 250);
+        </script>
+    </body>    
+</html>
