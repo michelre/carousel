@@ -17,7 +17,6 @@ You have an example in the index.html file.
 It's pretty simple to start the carousel. Create a structure like that in your HTML file:
 
 <pre>
-<code>
 <div id="carousel-wrapper">
   <ul>
     <li>
@@ -32,7 +31,6 @@ It's pretty simple to start the carousel. Create a structure like that in your H
     </li>
   </ul>
 </div>
-</code>
 </pre>
 
 Now, you can instantiate the carousel:
@@ -48,7 +46,6 @@ The first parameter corresponds to the width and the second parameter correspond
 
 I created a directive for you to instantiate the carousel:
 <pre>
-<code>
   <div id="carousel-wrapper" ng-carousel="{'width':'100%','height':'500px'}">
     <ul>
       <li>
@@ -63,7 +60,6 @@ I created a directive for you to instantiate the carousel:
       </li>
     </ul>
   </div>
-</code>
 </pre>
 
 To load the directive, just add carouselDirective in the right angular module:
@@ -73,8 +69,4 @@ To load the directive, just add carouselDirective in the right angular module:
 </code>
 </pre>
 
-I created my résumé with this carousel on my <a href="http://www.remi-michel.fr">personal website</a> (at the bottom of the page)
-
-
-
-
+I created my résumé with this carousel on my <a href="http://www.remi-michel.fr" target="_blank">personal website</a> (at the bottom of the page)
