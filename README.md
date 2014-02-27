@@ -41,7 +41,7 @@ Now, you can instantiate the carousel:
 
 The first parameter corresponds to the width and the second parameter corresponds to the height. (It's pretty simple, isn't it? ;) )
 
-<h2>Using carousel with AngularJS</h2>
+<h2>Using with AngularJS</h2>
 
 I created a directive for you to instantiate the carousel:
 ```html
